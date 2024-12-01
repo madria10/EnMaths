@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Mathematics Practicals</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,8 +30,7 @@
     <h1>Engineering Mathematics Practicals - SEM 3 | 2024 - Delhi University</h1>
     <p>
         This repository contains practical programs and scripts developed for the 
-        <strong>Engineering Mathematics</strong> course using Scilab/MATLAB or other 
-        mathematical simulation software. The focus is on applying mathematical concepts 
+        <strong>Engineering Mathematics</strong> course using Scilab. The focus is on applying mathematical concepts 
         to solve equations, model systems, and analyze results effectively.
     </p>
     <h2>Learning Outcomes</h2>
@@ -69,16 +67,10 @@
         <li>Other compatible mathematical simulation software</li>
     </ul>
     <p>Ensure the software is correctly installed and configured before running the scripts.</p>
-    <h2>Repository Structure</h2>
-    <ul>
-        <li><code>scripts/</code>: Contains Scilab/MATLAB scripts for each practical.</li>
-        <li><code>reports/</code>: Example technical reports for reference.</li>
-        <li><code>plots/</code>: Pre-generated plots and visualizations for comparison.</li>
-    </ul>
     <h2>Usage</h2>
     <ol>
         <li>Clone this repository:
-            <pre><code>git clone https://github.com/yourusername/engineering-math-practicals.git</code></pre>
+            <pre><code>    </code></pre>
         </li>
         <li>Navigate to the practical folder and open the script in your preferred software.</li>
         <li>Follow the comments in the scripts to run and analyze results.</li>
@@ -95,7 +87,9 @@
     </p>
     <h2>Acknowledgments</h2>
     <p>
-        Special thanks to the instructors and peers who provided insights and resources for developing these practicals.
+        Thanks to all the Contributors.
+        Special Mentions - 
+        <li>Priyanshu Parker - It won't be possible without you giving full nighter for the test. </li> 
     </p>
 </body>
 </html>
