@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>Engineering Mathematics Practicals - SEM 3 | 2024 </h1>
-    <h2>Delhi University</h2>
     <p>
         This repository contains practical programs and scripts developed for the 
         <strong>Engineering Mathematics</strong> course using Scilab. The focus is on applying mathematical concepts 
