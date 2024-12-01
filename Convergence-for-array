@@ -1,0 +1,36 @@
+clc;
+clf;
+clear;
+
+s = input("Enter the array :");
+
+tolerance = 5;
+x = 100000;
+N = 100;
+z = 0;
+
+for i = 1 : length(s) - 1
+    if abs(s(i+1) - s(i)) < tolerance then
+        z = z+1;
+    end
+end
+        
+
+if z ~= 0 then
+    disp("Convergent");
+else
+    disp("Non Convergent");
+end
+
+
+converged = zeros(1, length(s)-1);
+
+for x = 1 : length(s) - 1
+    converged(x) = s(x) + s(x+1);
+end
+
+subplot(2,1,1)
+plot2d3(1 : length(s), s)
+
+subplot(2,1,2)
+plot2d3(1 : length(s)-1, converged)

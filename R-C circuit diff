@@ -1,0 +1,29 @@
+clf;
+clc;
+clear
+
+A=input("Enter the value of Capacitor (in Farad): ")
+X=input("Enter the value of Resistor (in Ohm): ")
+Y=input("Enter the value of Peak Value (in Volt): ")
+
+f=(A*X)^-1;
+//defining function
+function idas=myode(t, i, dv)
+idas=(dv-i/A)/X
+endfunction
+
+//defining initial values
+i0=0;
+t0=0;
+t=0 : 0.0001/f : 10/f;
+
+// calling diff function to differenciate Vin
+dv=Y*diff(sin((2*%pi*f)*t))/(0.0001/f);
+
+//calling ode
+i=ode(i0,t0,t,myode);
+plot(t,i);
+
+//to add legend title and axis labels
+xlabel("time(in sec)")
+ylabel("current")

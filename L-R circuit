@@ -1,0 +1,28 @@
+clf;
+clc;
+clear
+
+/* 
+working-
+V - iR - L (di/dt) = 0
+di/dt = (V - iR) / L
+*/
+// taking input v, r , l from user
+v = input("enter the peak value of potential :");
+r = input("enter the value of resistance :");
+l = input("enter the inductance value :");
+f = r/l;
+// defining function idas
+function idas = myode(t,i)
+    idas = (v*sin(2*%pi*f*t)-r*i)/l
+endfunction
+// taking initial values
+i0 = 0;
+t0 = 0;
+t = 0:0.01/f:20/f;
+// calling in built ode function
+i = ode(i0,t0,t,myode);
+// plotting t vs i graph
+plot(t,i);
+xlabel("time");
+ylabel("current");

@@ -1,0 +1,37 @@
+clc;
+clf;
+clear;
+
+s = input("Enter the expression of x : ", "string");
+tolerance = 0.01;
+x = 100000;
+N = 100;
+
+prevValue = evstr(s);
+x = x ** 2;
+curValue = evstr(s);
+
+dif = abs(curValue - prevValue);
+disp(dif)
+
+if dif < tolerance then
+    disp("Convergent");
+else
+    disp("Non Convergent");
+end
+
+func = zeros(1, N);
+converged = zeros(1, N-1);
+
+for x = 1 : N
+    func(x) = evstr(s);
+    if x ~= 1 then
+        converged(x-1) = sum(func);
+    end
+end
+
+subplot(2,1,1)
+plot(1:N, func)
+subplot(2,1,2)
+plot(1:N-1, converged)
+
