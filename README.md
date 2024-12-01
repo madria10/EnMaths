@@ -4,27 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        h1, h2 {
-            color: #0056b3;
-        }
-        code {
-            background-color: #eef;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-    </style>
 </head>
 <body>
     <h1>Engineering Mathematics Practicals - SEM 3 | 2024 - Delhi University</h1>
@@ -42,16 +21,16 @@
     </ul>
     <h3>List of Practicals</h3>
     <ol>
-        <li><strong>Solution of First-Order Differential Equations:</strong> </li>
-        <li><strong>Testing Convergence and Divergence of a Series:</strong> </li>
-        <li><strong>Solving Linear Systems of Equations 
-        <li><strong>Visualization of Functions and Taylor Series Expansions:</strong></li>
+        <li><strong>Solution of First-Order Differential Equations</strong></li>
+        <li><strong>Testing Convergence and Divergence of a Series</strong></li>
+        <li><strong>Solving Linear Systems of Equations</strong></li>
+        <li><strong>Visualization of Functions and Taylor Series Expansions</strong></li>
     </ol>
+    <h3>Usage</h3>
     <ol>
-        <li>Clone this repository:
-            <pre><code>    </code></pre>
-        </li>
-        <li>Navigate to the practical folder open the file, copy the code and run it in Scilab.</li>
+        <li>Clone this repository:</li>
+        <pre><code>git clone https://github.com/yourusername/engineering-math-practicals.git</code></pre>
+        <li>Navigate to the practical folder, open the file, copy the code, and run it in Scilab.</li>
     </ol>
     <h2>Contributing</h2>
     <p>
@@ -64,10 +43,10 @@
     </p>
     <h2>Acknowledgments</h2>
     <p>
-        Thanks to all the Contributors.
-        Special Mentions - 
-        <li>Priyanshu Parker - It won't be possible without you giving full nighter for the test. </li> 
+        Thanks to all the contributors. Special mentions: 
+        <ul>
+            <li>Priyanshu Parker - It wouldn't have been possible without your all-nighter for the test.</li>
+        </ul>
     </p>
 </body>
 </html>
-
