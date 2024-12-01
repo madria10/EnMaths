@@ -29,7 +29,7 @@
     <h3>Usage</h3>
     <ol>
         <li>Clone this repository:</li>
-        <pre><code>git clone https://github.com/yourusername/engineering-math-practicals.git</code></pre>
+        <pre><code>  </code></pre>
         <li>Navigate to the practical folder, open the file, copy the code, and run it in Scilab.</li>
     </ol>
     <h2>Contributing</h2>
